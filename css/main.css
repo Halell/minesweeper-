@@ -1,0 +1,55 @@
+
+body{
+    background-image: url("/images/Untitled\ -\ Frame\ 1.jpg");
+    background-size: cover;
+    text-align: right;
+}
+
+.game{
+    
+    border-spacing:0px;
+    margin-left: 1250px;
+    margin-top: 150px;
+    border: 20px solid rgb(206, 204, 204);
+    border-style:ridge;
+}
+
+
+.game-cell{
+    background-color: rgb(206, 204, 204);
+    border-width:6px;  
+    border-style:outset;
+    height: 40px ;
+    width: 40px ;
+    border-spacing: 0;
+}
+
+
+.open{
+    table-layout: fixed;
+    text-align: center;
+    border: solid rgb(153, 153, 153);
+    border-width:2.5px;  
+    font-size:  xx-large;
+    font-family: mine-sweeper;
+
+}
+.flagged{
+    /* image */
+    /* background-image:url("/images/flag.png"); */
+    text-align: center;
+    font-size: xx-large;
+}
+@font-face {
+    font-family: 'mine-sweeper';
+    src:url(font/mine-sweeper.otf);
+  }
+
+  
+  
+  
+
+  
+  
+
+
