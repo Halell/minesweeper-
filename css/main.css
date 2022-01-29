@@ -1,16 +1,60 @@
 
 body{
-    background-image: url('images/1.jpg');
+    /* background-image: url('/images/1.jpg'); */
     background-size: cover;
     text-align: right;
+    display: block;
 }
-
-
-.game{
-    
+.displys{
     border-spacing:0px;
     margin-left: 70%;
     margin-top: 150px;
+    border: 20px solid rgb(206, 204, 204);
+    border-style:ridge;
+    border-bottom: none;
+}
+
+.timer{
+    width: 65px;
+    height: 60px; 
+    border: 10px solid rgb(206, 204, 204);
+    border-bottom: 10px solid rgb(206, 204, 204);
+    font-family: digits-d;
+    text-align: center;
+    font-size: 40px;
+}
+.buten{
+    text-align: center;
+    font-size: xx-large;
+    background-color: rgb(206, 204, 204);
+    width: 40px;
+    height: 30px;
+    border-top: 25px solid rgb(206, 204, 204);
+    border-bottom: 25px solid rgb(206, 204, 204);
+}
+
+.mine{
+    font-size: 40px;
+    text-align: center;
+    width: 65px;
+    height: 60px; 
+    border: 10px solid rgb(206, 204, 204);
+    border-bottom: 10px solid rgb(206, 204, 204);
+    font-family: digits-d;
+
+}
+
+/* .displys td{
+    width: 106px;
+    height: 60px;
+    background-color: rgb(206, 204, 204);
+    border-spacing: 0;
+} */
+
+.game{
+    border-spacing:0px;
+    margin-left: 70%;
+    /* margin-top: 150px; */
     border: 20px solid rgb(206, 204, 204);
     border-style:ridge;
 }
@@ -46,6 +90,10 @@ body{
     src:url(font/mine-sweeper.otf);
   }
 
+  @font-face {
+    font-family: 'digits-d';
+    src:url(font/digits-d.otf);
+  }
   
   
   
